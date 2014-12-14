@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CertiPay.Octopus.Redis</id>
+    <title>CertiPay.Octopus.Redis</title>
+    <version>1.0.0</version>
+    <authors>CertiPay</authors>
+    <owners>CertiPay</owners>
+    <licenseUrl>http://certipay.com</licenseUrl>
+    <projectUrl>http://certipay.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package is intended to flush a redis database cache on deployment</description>
+  </metadata>
+</package>
