@@ -52,7 +52,7 @@ if($MmbotSvc)
 
 $MmbotExe = Join-Path "$env:ChocolateyInstall\lib\mmbot.*\tools\mmbot" "mmbot.exe" -Resolve
 
-New-Service -Name $ServiceName -binaryPathName $MmbotExe -StartupType Automatic
+New-Service -Name $ServiceName -binaryPathName "$MmbotExe -s -d $ScriptPath"  -StartupType Automatic
 
 Start-Service $ServiceName
 
