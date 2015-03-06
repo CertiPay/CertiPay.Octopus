@@ -4,8 +4,8 @@
     <id>CertiPay.Octopus.Redis</id>
     <title>CertiPay.Octopus.Redis</title>
     <version>1.0.0</version>
-    <authors>CertiPay</authors>
-    <owners>CertiPay</owners>
+    <authors>MattGWagner, CertiPay</authors>
+    <owners>MattGWagner, CertiPay</owners>
     <licenseUrl>http://certipay.com</licenseUrl>
     <projectUrl>http://certipay.com</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CertiPay.Octopus.Mmbot</id>
+    <title>CertiPay.Octopus.Mmbot</title>
+    <version>1.0.0</version>
+    <projectUrl>https://github.com/CertiPay/CertiPay.Common</projectUrl>
+    <licenseUrl>https://github.com/CertiPay/CertiPay.Common/blob/master/LICENSE.md</licenseUrl>
+    <authors>CertiPay, Matt Wagner</authors>
+    <owners>Matt Wagner</owners>
+    <description>This package installs and configures Mmbot for CertiPay usage</description>
+  </metadata>
+</package>

@@ -5,12 +5,6 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CertiPay.Octopus.Redis", "CertiPay.Octopus.Redis\CertiPay.Octopus.Redis.csproj", "{D83B85EA-26F7-442B-8122-A6CF68E14F32}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{D4E70F5B-8030-4036-B934-7FB90374B2F4}"
-	ProjectSection(SolutionItems) = preProject
-		LICENSE.md = LICENSE.md
-		README.md = README.md
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D4711BFC-F1E2-4906-B102-F8024B021591}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
@@ -18,16 +12,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D4711B
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CertiPay.Octopus.Mmbot", "CertiPay.Octopus.Mmbot\CertiPay.Octopus.Mmbot.csproj", "{AF388EB4-38B9-4FAA-B6DE-48FB4D0D96A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{80509333-FF28-4228-A19C-5941B91494C8}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		.build\Bootstrap.ps1 = .build\Bootstrap.ps1
+		Build.bat = Build.bat
+		.build\Common.psm1 = .build\Common.psm1
+		.build\default.ps1 = .build\default.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D83B85EA-26F7-442B-8122-A6CF68E14F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D83B85EA-26F7-442B-8122-A6CF68E14F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83B85EA-26F7-442B-8122-A6CF68E14F32}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{D83B85EA-26F7-442B-8122-A6CF68E14F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D83B85EA-26F7-442B-8122-A6CF68E14F32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83B85EA-26F7-442B-8122-A6CF68E14F32}.Release|x64.ActiveCfg = Release|Any CPU
+		{AF388EB4-38B9-4FAA-B6DE-48FB4D0D96A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF388EB4-38B9-4FAA-B6DE-48FB4D0D96A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF388EB4-38B9-4FAA-B6DE-48FB4D0D96A4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AF388EB4-38B9-4FAA-B6DE-48FB4D0D96A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF388EB4-38B9-4FAA-B6DE-48FB4D0D96A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF388EB4-38B9-4FAA-B6DE-48FB4D0D96A4}.Release|x64.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

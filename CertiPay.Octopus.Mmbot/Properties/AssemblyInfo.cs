@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CertiPay.Octopus.Redis")]
+[assembly: AssemblyTitle("CertiPay.Octopus.Mmbot")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CertiPay.Octopus.Redis")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyProduct("CertiPay.Octopus.Mmbot")]
+[assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("17b1a749-94c6-4a7f-a19e-2e8931897a8d")]
+[assembly: Guid("fbf5bc06-caa1-44a6-8f35-4cb2924d2e26")]
 
 // Version information for an assembly consists of the following four values:
 //
