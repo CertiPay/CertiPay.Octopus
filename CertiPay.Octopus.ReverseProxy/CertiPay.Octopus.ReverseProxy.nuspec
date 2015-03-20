@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CertiPay.Octopus.ReverseProxy</id>
+    <title>CertiPay.Octopus.ReverseProxy</title>
+    <version>1.0.0</version>
+    <authors>MattGWagner, CertiPay</authors>
+    <owners>MattGWagner, CertiPay</owners>
+    <licenseUrl>http://certipay.com</licenseUrl>
+    <projectUrl>http://certipay.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package is a template for a deployable configuration for using Application Request Routing v3 in IIS for a reverse proxy.</description>
+  </metadata>
+</package>
